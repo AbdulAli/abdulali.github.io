@@ -1,305 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us"><head>
+  <title>| Ali&#39;s Homepage</title>
 
-<head>
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="| Ali&#39;s Homepage" />
+<meta name="author" content="Abdul Ali Bangash" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.69.0" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">        
 
-  <title>Green Ali</title>
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_light.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
 </head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://www.abdulali.ca/">Home</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/projects">Projects</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a  target="_blank" href="https://loudskill.com">Blog</a>
+  </h3>
+</div>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Abdul Ali
-          <span class="text-primary">Bangash</span>
-        </h1>
-        <div class="subheading mb-5">Edmonton · Alberta, T6G 2E8 · (587) 566-8981 ·
-          <a>bangash[at]ualberta.ca</a>
-        </div>
-        <p class="lead mb-5">My research interest is to find out new ways to optimize the non-functional properties of a Software. Area wise my interests fall in Program Analysis, Software Testing, Energy Efficient Computing and Mining Software Repositories.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/abdul-ali-bangash-bb657934/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/abdulali">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://twitter.com/abdulalib">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Graduate Research Assistant</h3>
-            <div class="subheading mb-3">Maple Lab, University of Alberta</div>
-
-            <div class="subheading mb-4">Advisors</div>
-            <p>Karim Ali and Abram Hindle</p>
-
-            <div class="subheading mb-4">Current Work</div>
-            <p>Working on SWAN project - A static analysis framework for iOS applications.</p>
-            <p>Collecting an energy dataset of iOS applications. </p>
-
-            <div class="subheading mb-4">Past Work</div>
-            <p>Performed a conclusion stability study on Defect Prediction approaches with respect to time.</p>
-            <p>Analyzed Stackoverflow data to find out what developers discuss about Machine Learning.</p>
-            <p>Analyzed Android APK byte-code transformation effect on energy consumption.</p>
-            <p>Developed a prediction model to predict the effect of code structural change on energy consumption.</p>
-            <p>Developed Energy measurement framework for IOS and Android.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2018 - Current</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Graduate Research Assistant</h3>
-            <div class="subheading mb-3">AIM Lab, National University of Computer and Emerging Sciences</div>
-            <p>Proposed a static analysis methodology to relate software energy consumption with software metrics considering test cases execution structure.</p>
-            <p>Designed a tool to generate execution path of test case executions of an Android application.</p>
-            <p>Conducted a survey on current smartphone battery optimization software techniques.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2016 - August 2018</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Graduate Research Assistant</h3>
-            <div class="subheading mb-3">Quest Lab, National University of Computer and Emerging Sciences</div>
-            <p>Developed a validation system for Pivot based implementation of QVTo (Query/View/Transformation) Language.</p>
-            <p>Conducted a survey on available Model-based test case selection and prioritization techniques.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2015 - May 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Java Developer</h3>
-            <div class="subheading mb-3">Global Rescue LLC</div>
-            <p>Responsible for front-end and back-end development of Grid system, an enterprise application system built on Java EE.</p>
-            <p>Skills and tools: JSF, JBOSS, MySql, EJB, Hibernate, Maven, Ant, JIRA , Mantis, JMS, Restful, JSON, Git, PuTTY , JQuery, CSS.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">October 2014 - June 2015</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Java Developer</h3>
-            <div class="subheading mb-3">Spantic Technologies</div>
-            <p>Designed developed and deployed two modules of skip hire management system in Java EE.</p>
-            <p>Skills and tools: JSF, EJB, SVN, PostgresSQL, JBOSS.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2014 - September 2014</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Alberta</h3>
-            <div class="subheading mb-3">PhD in Computer Science</div>
-            <div>Software Engineering and Program Analysis</div>
-            <p>GPA: 4.00</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - current</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">National University of Computer and Emerging Sciences</h3>
-            <div class="subheading mb-3">Masters of Software Engineering</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2015 - August 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">National University of Computer and Emerging Sciences</h3>
-            <div class="subheading mb-3">Bachelors of Computer Science</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2010 - August 2014</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages</div>
-        <ul class="fa-ul mb-5">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Java, Python, R, C++, C#, HTML, Javascript</li>
-        </ul>
-
-        <div class="subheading mb-3">Skills</div>
-        <ul class="fa-ul mb-5">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            TDD, JSF, Servlets, JDBC, JSP, XML, SCM, EJB, JUnit Testing, Selenium, Java Debug, UML Modelling,
-            EMF, Program Analysis, Socket Programming, MuJava, Windows Phone, Android, JavaScript, CSS, HTML,
-            Javascript, Moodle</li>
-        </ul>
-
-        <div class="subheading mb-3">Tools</div>
-        <ul class="fa-ul mb-5">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Amazon AWS, Eclipse, Latex, Android Studio, R studio, SCM (Git), RSA , Matlab, MySql, PostgreSQL, SQL Lite,
-            PuTTY , JIRA, Mantis</li>
-        </ul>
-
-        <div class="subheading mb-3">O/S</div>
-        <ul class="fa-ul mb-5">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Linux, Windows, MacOS</li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Publications</h2>
-        <p class="mb-5">Abdul A. Bangash, Hareem Sahar, Abram Hindle, and Karim Ali. "On the Time-Based Conclusion Stability of Cross-Project Defect Prediction Models". Empirical Software Engineering 2020</p>
-        <p class="mb-5">Abdul A. Bangash, Hareem Sahar, S Chowdhury, A William Wong, Abram Hindle, and Karim Ali. "What do developers know about machine learning: a study of ML discussions on StackOverflow". 16th International Conference on Mining Software Repositories, pp. 260-264, 2019.</p>
-        <p class="mb-5">Abdul A. Bangash, Hareem Sahar, and Mirza O. Beg. “A Methodology for Relating Software Structure with Energy Consumption”. IEEE International Working Conference on Source Code Analysis and Manipulation, pp. 111-120, 2017.</p>
-        <p class="mb-5">Hamza M. Alvi, Hareem Sahar, Abdul A. Bangash, and Mirza O. Beg, "EnSights: A tool for energy aware software development", 13th International Conference on Emerging Technologies, pp. 1-6, 2017.</p>
-        <p class="mb-5">Hareem Sahar, Abdul A . Bangash, and Mirza O. Beg. “Towards energy aware object-oriented development of android applications”. Journal of Sustainable Computing: Informatics and Systems, v.21, pp. 28–46, 2019</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Achievements</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            ACM Travel Grant for ACM-ICSE conference, 2019</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Higher Education Commission’s Travel Grant for Canada, 2019</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Doctoral Recruitment Scholarship, University of Alberta, 2018</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Silver Medal in Masters - Second position in Class of 2015</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Higher Education Commission’s Travel Grant for IEEE-SCAM, 2017</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Categorized in the Dean’s List of Honor, 2012</li>
-        </ul>
-      </div>
-    </section>
-
+      
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-1">
+    <div class="profile-area rounded text-center position-relative shadow">
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/profile.jpg"
+      alt="Abdul Ali Bangash"
+      style="width: 95%; max-width: 300px;"
+    />
   </div>
+</div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <div class="p-2">
+        <h1 class="mb-0">Abdul Ali Bangash, (Ali)</h1>
+<h2 class="mb-0">PhD Student</h2>
+<h3 class="mb-0">University of Alberta, AB, Canada</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a  target="_blank" href="https://www.linkedin.com/in/abdul-ali-bangash-bb657934/">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a  target="_blank" href="https://github.com/AbdulAli/">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a  target="_blank" href="twitter.com/abdulalib">
+      <i class="zoomlink mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a  target="_blank" href="https://scholar.google.com/citations?user=WCmRamIAAAAJ">
+      <i class="zoomlink mt-1 ai ai-google-scholar"></i>
+    </a>
+  </div>
+  
+</div>
+ <footer class=" mt-2 mb-2 ">
+  <span class="markdownify">Abdul Ali Bangash</span>
+  <span style="font-size:0px;">
+    &middot;
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </span>
+</footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  Ali is a Computing Science Ph.D student at University of Alberta in Canada. His research areas include software engineering, mining software repositories, search-based software engineering, the intersection between software engineering and static analysis, and the study of applying energy-efficient pratices in Software Engineering.
+</p>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    Job Title
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">2019 - <em>Present</em></span>
+    &middot;
+    
+    Company Name
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Printed from desktop. Sent <a href="#">emails</a>. Called people using telephone. Drank water from office cooler. Ate donuts on people&rsquo;s birthdays.</dd>
+</dl>
 
-</body>
+<dl>
+  <dt class="mb-0">
+    Job Title
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">2018 - 2019</span>
+    &middot;
+    
+    <a href="#">Company Name</a>
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify"></dd>
+</dl>
 
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>Ph.D. in Subject</dt>
+  <dd class="mb-0 ml-3">2013 - 2018 &middot; University of State-City</dd>
+  
+  <dd class="mb-0 ml-4">
+    Thesis:
+    <a href="#"
+      ><i>Effect of humans on other humans: a study of human behavior.</i></a
+    >
+  </dd>
+  
+</dl>
+
+<dl>
+  <dt>M.S. in Subject</dt>
+  <dd class="mb-0 ml-3">2013 - 2018 &middot; University of State-City</dd>
+  
+  <dd class="mb-0 ml-4">
+    Thesis:
+    <a href="#"
+      ><i>Effect of humans on other humans: a study of human behavior.</i></a
+    >
+  </dd>
+  
+</dl>
+
+<dl>
+  <dt>B.S. in Subject</dt>
+  <dd class="mb-0 ml-3">2004 - 2009 &middot; University of State-City</dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-book"></i>
+        Publications</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+
+
+<h4 style="text-decoration: underline;">Journal Articles</h4><p>2018.
+F Last, F Second, P secondary.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+Journal of Field 52 (16), 9033-9044.
+</p>
+<p>2018.
+F Last, F Second, P secondary.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+Journal of Field 52 (16), 9033-9044.
+</p>
+
+
+<h4 style="text-decoration: underline;">Proceedings</h4><p>2018.
+F Last, F Second, P secondary.
+
+
+<a href="#">
+  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+</a>
+
+
+Journal of Field 52 (16), 9033-9044.
+</p>
+
+
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Skill 1, Skill 2</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="90%" style="width: 0;"></div>
+</div>
+
+<code>Skill 3</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="80%" style="width: 0;"></div>
+</div>
+
+<code>Skill 4</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="50%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Mentoring for Admissions and Scholarships</li>
+  
+  <li class="list-unstyled mb-2">Hiking</li>
+  
+  <li class="list-unstyled mb-2">Basketball</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
 </html>
