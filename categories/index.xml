@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>https://www.abdulali.ca/categories/</link>
+    <link>https://www.abdulali.github.io/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.abdulali.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.abdulali.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>aliquam auctor</title>
-      <link>https://www.abdulali.ca/categories/aliquam-auctor/</link>
+      <link>https://www.abdulali.github.io/categories/aliquam-auctor/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/aliquam-auctor/</guid>
+      <guid>https://www.abdulali.github.io/categories/aliquam-auctor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>do</title>
-      <link>https://www.abdulali.ca/categories/do/</link>
+      <link>https://www.abdulali.github.io/categories/do/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/do/</guid>
+      <guid>https://www.abdulali.github.io/categories/do/</guid>
       <description></description>
     </item>
     
     <item>
       <title>facilisi odio</title>
-      <link>https://www.abdulali.ca/categories/facilisi-odio/</link>
+      <link>https://www.abdulali.github.io/categories/facilisi-odio/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/facilisi-odio/</guid>
+      <guid>https://www.abdulali.github.io/categories/facilisi-odio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>id</title>
-      <link>https://www.abdulali.ca/categories/id/</link>
+      <link>https://www.abdulali.github.io/categories/id/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/id/</guid>
+      <guid>https://www.abdulali.github.io/categories/id/</guid>
       <description></description>
     </item>
     
     <item>
       <title>diam aliqua</title>
-      <link>https://www.abdulali.ca/categories/diam-aliqua/</link>
+      <link>https://www.abdulali.github.io/categories/diam-aliqua/</link>
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/diam-aliqua/</guid>
+      <guid>https://www.abdulali.github.io/categories/diam-aliqua/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fringilla</title>
-      <link>https://www.abdulali.ca/categories/fringilla/</link>
+      <link>https://www.abdulali.github.io/categories/fringilla/</link>
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.abdulali.ca/categories/fringilla/</guid>
+      <guid>https://www.abdulali.github.io/categories/fringilla/</guid>
       <description></description>
     </item>
     
